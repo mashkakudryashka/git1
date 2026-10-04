@@ -1,6 +1,12 @@
 #include <iostream>
 
 int main(){
-    std::cout << "Sphere Volume Calculator" << std::endl;
+    double radius;
+
+    std::cout << "Enter the radius of the sphere: ";
+    std::cin >> radius;
+
+    std::cout << "You entered radius: " << std::endl;
+    
     return 0;
 }
